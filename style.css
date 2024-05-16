@@ -1,0 +1,167 @@
+
+*{
+    margin: 0;
+}
+.nav_bar{
+    background-color: rgba(234, 218, 218, 0.405);
+    
+    height: 60px;
+    border: none;
+    backdrop-filter: blur(12px);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+    
+}
+.logo_box{
+    height: 60px;
+    width: 60px;
+
+}
+.logo{
+    height: 60px;
+    width: 60px;
+}
+.search_box{
+    height: 40px;
+    display: flex;
+    width: 400px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    margin-left: 50px;
+    justify-content: space-evenly;
+}
+.searchbar{
+    width: 349px;
+    background-color: rgba(133, 122, 122, 0.236);
+    border: none;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+.searchborder{
+    height: 40px;
+    width: 40px;
+    background-color: rgba(133, 122, 122, 0.236);
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px; 
+}
+
+.Search{
+    height: 20px;
+    width: 20px;
+    margin-left: 4px;
+    margin-top: 4.5px;   
+}
+
+
+.menu{
+    height: 50px;
+    font-weight: 700;
+    color: rgb(118, 113, 113);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgba(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cart{
+    height: 30px;
+    width: 30px;
+}
+.user{
+    justify-content: center;
+}
+.profile{
+    height: 30px;
+    width: 30px;
+    opacity: 0.9;
+}
+.login{
+    height: 30px;
+    background-color: rgba(133, 122, 122, 0.236);
+    border-radius: 6px;
+    width: auto;
+    border: none;
+}
+.space{
+    width: 600px;
+}
+.help{
+    height: 500px;
+    background-color: aqua;
+}
+select{
+    text-align: center;
+}
+.poster{
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgba(234, 218, 218, 0.405);
+}
+.poster1{
+    height: 300px;
+    width: 30%;
+}
+footer {
+    font-size: 1.3rem;
+    background-color: #252323; /* Background color */
+    color: rgb(208, 189, 189); /* Text color */
+    text-align: center; /* Centered text */
+    padding: 20px 0; /* Padding top and bottom */
+    position: relative; /* Ensure it stays at the bottom */
+    width: 100%; /* Full width */
+    bottom: 0;
+}
+footer {
+    margin-top: auto; /* Push the footer to the bottom */
+}
+.space{
+    height: 20px;
+}
+.img1{
+    height: 300px;
+}
+.product1{
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgba(234, 218, 218, 0.405);
+
+}
+.box{
+    background-color: white;
+    height: 390px;
+    border: 2px solid rgba(126, 110, 110, 0.501);
+    width: 19%;
+    margin-top: 4px;
+}
+.para{
+    font-size: 1rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+.normal{
+    font-size: 1.3rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: rgb(118, 113, 113);
+}
+.items{
+    height: 280px;
+    width: 220px;
+    margin-left: 30px;
+    
+    
+}
+
+
+
+
+    

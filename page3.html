@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page</title>
+    <link rel="stylesheet" href="style3.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="menu1">
+
+        </div>
+    </div>
+    <div class="nav_bar">
+        <div class="logo_box">
+            <div class="logo">
+                <a href="index.html"><img src="tb.png" class="logo"></a>
+
+            </div>
+
+        </div>
+        <div class="search_box">
+            
+            <input placeholder="     Search fashions" class="searchbar">
+            <div class="searchborder">
+                <div class="Search">
+                    <img src="search_b.png" class="Search">
+                </div>
+            </div>
+
+        </div>
+        <div class="space">
+
+        </div>
+        <div>
+            <img src="location.png" class="cart">
+        </div>
+        <div class="cart">
+            <img src="cart.png" class="cart">
+
+        </div>
+        <div class="user">
+            <a href="signin.html"> <img src="user.png" class="profile"> </a>
+        </div>
+    </header>
+    <div class="container">
+        <div class="product">
+            <img src="img22.webp" alt="Product Image" class="product-image">
+            <div class="product-details">
+                <h1 class="product-title">FIRST White Men's Running Shoes</h1>
+            
+                <p class="product-price">PRICE Rs. 1,079.00</p>
+                <p>&nbsp;</p>
+                <div class="size1">
+                    <select class="size" >
+                        <option class="size">Size</option>
+                        <option value="">6</option>
+                        <option value="">7</option>
+                        <option value="">8</option>
+                        <option value="">9</option>
+                        <option value="">10</option>
+                    </select>
+
+                </div>
+                <ul class="product-specifications">
+                    <li> &nbsp; </li>
+                    <li> &nbsp;</li>
+                    <li> * Occasion: Everyday</li>
+                    <li> * Insole: Super Soft</li>
+                    <li> * Care Instructions: Wash in Lukewarm Water. Do Not Bleach</li>
+                    <li> * Upper Material: Mesh</li>
+                    <p class="text1">Manufacturer: Campus Activewear Ltd. D1, Udyog Nagar, Main Rohtak Road, New Delhi, Delhi, 110041</p>
+                    <p class="text1">Country of Origin: India</p>
+                    <li>&nbsp;</li>
+                </ul>
+                <button class="buy-button" onclick="showPayment()">Buy Now</button>
+                <button class="addtocart">Add to Cart</button>
+                <ul class="product-specifications">
+                    <li>&nbsp;</li>
+                    <li>&nbsp;</li>
+                    <li>Make your running sessions enjoyable and take your style up a notch by wearing these running shoes for men from CAMPUS. These men's white running shoes have a premium quality mesh upper to keep your feet relaxed for long hours, allow ventilation, and provide responsive cushioning. These white sports shoes for men have a Memory Tech Insole with Two-Layer Adaptive Cushioning. These white shoes are constructed with Arch Support and smooth material for excellent support.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div id="payment-section" class="payment-section hidden">
+            <h2>Payment Options</h2>
+            <form id="payment-form">
+                <label for="card-number"> &nbsp; Card Number:</label>
+                <input type="text" id="card-number" name="card-number" required>
+                <label for="expiry-date">&nbsp;Expiry Date:</label>
+                <input type="text" id="expiry-date" name="expiry-date" required>
+                <label for="cvv">&nbsp;CVV:</label>
+                <input type="text" id="cvv" name="cvv" required>
+                <button type="submit">Pay Now</button>
+                
+            </form>
+        </div>
+
+        <div class="review-section">
+            <h2>Write a Review</h2>
+            <form id="review-form">
+                <textarea id="review-text" name="review-text" rows="4" cols="50" placeholder="Write your review here..." required></textarea>
+                <div class="rating">
+                    <input type="radio" id="star5" name="rating" value="5" /><label for="star5" title="5 stars"></label>
+                    <input type="radio" id="star4" name="rating" value="4" /><label for="star4" title="4 stars"></label>
+                    <input type="radio" id="star3" name="rating" value="3" /><label for="star3" title="3 stars"></label>
+                    <input type="radio" id="star2" name="rating" value="2" /><label for="star2" title="2 stars"></label>
+                    <input type="radio" id="star1" name="rating" value="1" /><label for="star1" title="1 star"></label>
+                </div>
+                <button type="submit">Submit Review</button>
+            </form>
+            <div id="reviews">
+                <h3>Reviews:</h3>
+                <ul id="review-list">
+                    <!-- Reviews will be displayed here -->
+                </ul>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; TB Collection Pvt. Ltd &nbsp; &nbsp; &nbsp; All rights reserved 2024.</p>
+        <p>
+            &nbsp;
+            &nbsp;
+        </p>
+        <p>
+            <a>Privacy Policy</a> | 
+            <a>Terms of Service</a> | 
+            <a>Contact Us</a>
+        </p>
+    </footer>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
