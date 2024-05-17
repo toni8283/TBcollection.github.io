@@ -135,6 +135,7 @@ footer {
 
 }
 .box{
+    border-radius: 10px;
     background-color: white;
     height: 390px;
     border: 2px solid rgba(126, 110, 110, 0.501);
